@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+
+body {
+    background-image: url('rafiki.svg');
+    font-family: 'Open Sans', sans-serif;
+}
+
+.background-image {
+    width: 1315.1px;
+    height: 1073.9px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: bottom 10px;
+}
+
+.demo {
+    background-color: #fff;
+    top: 60px;
+    height: 800px;
+    width: 683px;
+    padding: 40px;
+    border-radius: 20px;
+    margin: 200px 80px 200px;
+    z-index: 100;
+  
+    
+}
+
+.demo-form { /* this put equal space at the left and top and centralized the rectangle*/
+    display: flex;
+    
+    margin-left: 60px;
+    margin-top: 20px;
+}
+
+.bold {
+    font-weight: 700;
+    font-size: 35px;
+}
+
+h2 {
+    line-height: 5px;
+    text-align: left;
+    margin: 20px 0 20px 0;
+}
+
+.semi-bold {
+   
+    font-size: 18px;
+    font-weight: 600;
+}
+
+p {
+    color: #acacac;
+    line-height: 34px;
+    
+}
+
+.email {
+    color: #5c53ef;
+    font-weight: 700;
+    margin-bottom: 8px; /* this brought the email close to the border */
+    text-align: left;
+    
+}
+
+#email {
+    width: 500px;
+    height: 60px;
+    border-radius: 10px;
+    border-color: #5c53ef;
+    box-shadow: none;
+    border-style: solid;
+
+    
+}
+
+::placeholder {
+    color: #000;
+    font-size: 21px;
+    font-weight: 700;
+    padding: 15px; /* this put a space between the border and the placeholder text */
+
+}
+
+.password {
+    color: #000;
+    font-weight: 700;
+    margin-bottom: 8px; /* this brought the password close to the border */
+    text-align: left;
+    padding-top: 20px;
+}
+
+#password {
+    width: 500px;
+    height: 60px;
+    border-color: #eeeeee;
+    border-radius: 10px;
+    box-shadow: none; /* box-shadow and border-style are to remove the 2 tone color */
+    border-style: solid;
+}
+
+.second-placeholder::placeholder { /* to style the second place holder text separately */
+    color: #cccccc;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.btn {
+    width: 500px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: #5c53ef;
+    color: #fff;
+    margin-top: 50px;
+    border: none;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.container {
+    max-width: 1100px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.forgot-password {
+    text-decoration: none;
+    display: flex;
+    color: #5c53ef;
+    width: 183px;
+    height: 28px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    font-weight: 700;
+    color: #5c53ef;
+}
+
+.links { /* you must put links in a div to be able to alter the position */
+    text-align: center;
+    padding: 35px 35px 0 35px;
+    margin-top: 15px;
+    margin-right: 60px;
+}
+
+.link-two {
+    text-align: center;
+    margin-right: 22px;
+    padding-bottom: 10px;
+    margin-bottom: 5px;
+    margin-right: 60px;
+}
+
